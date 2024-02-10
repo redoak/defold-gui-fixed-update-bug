@@ -1,8 +1,0 @@
-function fixed_update(self, dt)
-	msg.post("#", "a", {m = "gui_script (receiver: \"#\")"})
-	msg.post("#gui", "b", {m = "gui_script (receiver: \"#gui\")"})
-end
-
-function on_message(self, message_id, message, sender)
-	print("gui_script received message from " .. message.m)
-end

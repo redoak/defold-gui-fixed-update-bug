@@ -1,4 +1,4 @@
-script: "/gui_script.gui_script"
+script: "/gui_script_1.gui_script"
 background_color {
   x: 0.0
   y: 0.0

@@ -1,0 +1,3 @@
+function on_message(self, message_id, message, sender)
+	print("script_2 received message from " .. message.m)
+end
